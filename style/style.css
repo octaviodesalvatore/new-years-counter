@@ -25,6 +25,7 @@ body {
   font-size: 4rem;
   font-weight: 600;
   color: white;
+  user-select: none;
 }
 
 .time-left {
@@ -37,6 +38,7 @@ body {
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
+  user-select: none;
 }
 
 .time-left > div {
@@ -56,13 +58,11 @@ body {
   }
   .new-years-container h1 {
     font-size: 3rem;
-    user-select: none;
   }
   .time-left {
     padding-top: 5.5rem;
     padding-bottom: 5.5rem;
     font-size: 2.5rem;
     flex-direction: column;
-    user-select: none;
   }
 }
